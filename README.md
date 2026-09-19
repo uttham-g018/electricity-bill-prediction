@@ -66,7 +66,7 @@ electricity-bill-prediction/
 └── README.md
 ```
 
-Dataset
+Dataset:
 
 The project uses the **Indian Household Electricity Consumption Dataset** from Kaggle.
 
