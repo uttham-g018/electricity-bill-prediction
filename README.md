@@ -1,18 +1,15 @@
-- # ⚡ Electricity Bill Prediction
+- # Electricity Bill Prediction
 
 A beginner-friendly machine learning project that predicts the estimated monthly electricity bill based on household appliance usage, city, electricity company, and month.
 
-## 🚀 Live Demo
 
-🔗 **[Try the Streamlit App](YOUR_DEMO_LINK_HERE)**
-
-## 📌 About the Project
+## About the Project
 
 This project uses **Linear Regression** to estimate the monthly electricity bill of a household based on different household and appliance-related features.
 
 The trained machine learning model is integrated into a simple **Streamlit web application** where users can enter their details and get an estimated electricity bill.
 
-## 🎯 Features
+## Features
 
 * Select City
 * Select Electricity Company
@@ -22,7 +19,7 @@ The trained machine learning model is integrated into a simple **Streamlit web a
 * Choose between exact estimate and approximate range
 * Simple and easy-to-use interface
 
-## 🤖 Machine Learning
+## Machine Learning
 
 **Algorithm:** Linear Regression
 
@@ -39,7 +36,7 @@ The model uses the following features:
 * Monitor Usage
 * Month
 
-## 📊 Model Performance
+## Model Performance
 
 | Metric   |   Score |
 | -------- | ------: |
@@ -47,7 +44,7 @@ The model uses the following features:
 | RMSE     | ₹693.65 |
 | R² Score |   0.578 |
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Python
 * Pandas
@@ -55,7 +52,7 @@ The model uses the following features:
 * Joblib
 * Streamlit
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 electricity-bill-prediction/
@@ -69,48 +66,9 @@ electricity-bill-prediction/
 └── README.md
 ```
 
-## 📚 Dataset
+##Dataset
 
 The project uses the **Indian Household Electricity Consumption Dataset** from Kaggle.
 
-🔗 **[Dataset on Kaggle](https://www.kaggle.com/datasets/suraj520/indian-household-electricity-bill)**
+**[Dataset on Kaggle](https://www.kaggle.com/datasets/suraj520/indian-household-electricity-bill)**
 
-## ▶️ Run Locally
-
-### Clone the repository
-
-```bash
-git clone https://github.com/uttham-g018/electricity-bill-prediction.git
-```
-
-### Install dependencies
-
-```bash
-cd electricity-bill-prediction
-pip install -r requirements.txt
-```
-
-### Run the application
-
-```bash
-streamlit run app.py
-```
-
-## 🔮 Future Improvements
-
-* Try additional regression algorithms
-* Improve prediction accuracy
-* Perform hyperparameter tuning
-* Use additional relevant features
-* Deploy the application publicly
-
-## 👨‍💻 Author
-
-**Uttham G**
-
-Information Science & Engineering
-Ramaiah Institute of Technology
-
----
-
-⭐ If you found this project useful, consider giving the repository a star.
